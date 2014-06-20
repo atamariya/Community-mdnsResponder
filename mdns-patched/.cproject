@@ -21,26 +21,38 @@
 							<builder id="org.eclipse.cdt.build.core.settings.default.builder.2135082822" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1118014946" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1102296905" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1983878137" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geekman-tinysvcmdns-e34b56243b15/lwip}&quot;"/>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1983878137" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;E:\bin\c\msp430-toolchain-win-x86-3.0\lib\gcc\msp430\4.6.3\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;E:\bin\c\msp430-toolchain-win-x86-3.0\msp430\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cc3000/include}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.843185788" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_TCP_LOOPBACK"/>
+									<listOptionValue builtIn="false" value="NOT_HAVE_SA_LEN"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1361762233" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.953722346" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1842871825" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geekman-tinysvcmdns-e34b56243b15/lwip}&quot;"/>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1842871825" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;E:\bin\c\msp430-toolchain-win-x86-3.0\lib\gcc\msp430\4.6.3\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;E:\bin\c\msp430-toolchain-win-x86-3.0\msp430\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cc3000/include}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1098888759" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_TCP_LOOPBACK"/>
+									<listOptionValue builtIn="false" value="NOT_HAVE_SA_LEN"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.791823626" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.2108611153" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1321528153" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/geekman-tinysvcmdns-e34b56243b15/lwip}&quot;"/>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1321528153" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;E:\bin\c\msp430-toolchain-win-x86-3.0\lib\gcc\msp430\4.6.3\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;E:\bin\c\msp430-toolchain-win-x86-3.0\msp430\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cc3000/include}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1469786933" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_TCP_LOOPBACK"/>
+									<listOptionValue builtIn="false" value="NOT_HAVE_SA_LEN"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1742661164" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>

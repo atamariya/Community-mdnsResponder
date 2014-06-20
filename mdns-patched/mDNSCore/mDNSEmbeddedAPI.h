@@ -72,6 +72,12 @@
 #include <uuid/uuid.h>
 #endif
 
+#include <cc3000/cc3000_common.h>
+#ifdef CC3000_REPACKAGED_VERSION
+#include <cc3000/socket.h>
+#include <cc3000/syslog.h>
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
