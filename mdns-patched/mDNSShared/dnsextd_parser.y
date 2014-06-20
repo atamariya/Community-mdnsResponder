@@ -74,7 +74,6 @@ typedef struct ZoneSpec
 	struct ZoneSpec	*	next;
 } ZoneSpec;
 
-int yydebug=0; // gck
 
 static StringListElem	*	g_stringList = NULL;
 static KeySpec			*	g_keys;
@@ -151,7 +150,7 @@ command:
 options_set:
 		OPTIONS optionscontent
 		{
-			//SetupOptions( &g_optionsInfo, context );
+			// SetupOptions( &g_optionsInfo, context );
 		}
 		;
 
@@ -282,7 +281,7 @@ zonestatement:
 		}
 		|
 		ALLOWUPDATE keycontent
-		{		
+		{
 			g_zoneSpec.allowUpdate = g_stringList;
 			g_stringList = NULL;
 		}
@@ -326,7 +325,7 @@ keystatements:
 		;
 
 keystatement:
-		KEY QUOTEDSTRING
+		KEY DOMAINNAME
 		{
 			StringListElem * elem;
 
