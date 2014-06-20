@@ -1,6 +1,6 @@
 # Community mdnsResponder
 
-…is an attempt to maintain patches against Apple's open-source mdnsResponder releases to make them work on POSIX-compatible systems. The repository contains a full fork of mdnsResponder, as well as patches against some vanilla releases from Apple.
+…is an attempt to maintain patches against Apple's open-source mdnsResponder releases to make them work on POSIX-compatible systems. The repository contains a full fork of mdnsResponder, as well as patches against some vanilla releases from Apple. Use the latest tarball from http://opensource.apple.com/tarballs/mDNSResponder/
 
 At the moment, this README is mostly distilled from a couple of emails I wrote on bonjour-dev, and the patched targets will probably only compile/work on Linux.
 
